@@ -19,6 +19,8 @@ namespace dynamicSQLEF
         public DbSet<LookupNames> lNDbset { get; set; }
         public DbSet<ColumnNames> colNDbset { get; set; }
 
+        public DbSet<ExpandoObject> ex1 { get; set; }
+
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
