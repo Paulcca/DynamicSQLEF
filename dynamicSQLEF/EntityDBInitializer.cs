@@ -11,31 +11,31 @@ namespace dynamicSQLEF
     {
         protected override void Seed(DataBaseContext context)
         {
-            var col1 = new ColumnNames();
-            col1.ID = 1;
-            col1.colName = "prop1";
+            //var col1 = new ColumnNames();
+            //col1.ID = 1;
+            //col1.colName = "prop1";
 
-            context.colNDbset.Add(col1);
+            //context.colNDbset.Add(col1);
 
-            var col2 = new ColumnNames();
-            col2.ID = 2;
-            col2.colName = "prop2";
+            //var col2 = new ColumnNames();
+            //col2.ID = 2;
+            //col2.colName = "prop2";
 
-            context.colNDbset.Add(col2);
+            //context.colNDbset.Add(col2);
 
 
-            var colList = new List<ColumnNames>();
-            colList.Add(col1);
-            colList.Add(col2);
+            //var colList = new List<ColumnNames>();
+            //colList.Add(col1);
+            //colList.Add(col2);
                 
            
 
-            var ln = new LookupNames();
-            ln.ID = 1;
-            ln.Name = "name1";
-            ln.columnNames = colList;
-            context.lNDbset.Add(ln);
-            context.SaveChanges();
+            //var ln = new LookupNames();
+            //ln.ID = 1;
+            //ln.Name = "name1";
+            //ln.columnNames = colList;
+            //context.lookUps.Add(ln);
+            //context.SaveChanges();
 
 
          
@@ -49,7 +49,7 @@ namespace dynamicSQLEF
             //coln.ForEach(c => context.colNDbset.Add(c));
             //context.SaveChanges();
 
-            base.Seed(context);
+           // base.Seed(context);
 
 
 

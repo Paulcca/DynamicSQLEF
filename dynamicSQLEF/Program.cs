@@ -15,24 +15,31 @@ namespace dynamicSQLEF
         static void Main(string[] args)
         {
 
-            dynamic ex = new ExpandoObject();
-            ex.ID = 1;
-            ex.Col1 = "";
-            ex.Col2 = "";
-            ex.Col3 = "";
+            
+
+            dynamic t = DB_Access.getRecbyId(1,"Table4");
 
 
 
-            using (DataBaseContext context = new DataBaseContext())
-            {
+
+            //dynamic ex = new ExpandoObject();
+            //ex.ID = 1;
+            //ex.Col1 = "";
+            //ex.Col2 = "";
+            //ex.Col3 = "";
+
+
+
+            //using (DataBaseContext context = new DataBaseContext())
+            //{
 
                 
 
-                    var ox  = context.SqlQuery("CreateLookupTbl @TableName @col1 ", 
-                        new SqlParameter("@TableName", "Table4"),
-                        new SqlParameter("@col1" , "col1" ),
-                        new SqlParameter("col1Value", "'abc'")
-                        ).FirstOrDefault();
+            //        var ox  = context.SqlQuery("CreateLookupTbl @TableName @col1 ", 
+            //            new SqlParameter("@TableName", "Table4"),
+            //            new SqlParameter("@col1" , "col1" ),
+            //            new SqlParameter("col1Value", "'abc'")
+            //            ).FirstOrDefault();
 
                    
 
@@ -40,7 +47,7 @@ namespace dynamicSQLEF
                
 
 
-            }
+            //}
 
 
 

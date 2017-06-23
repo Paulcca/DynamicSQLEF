@@ -5,6 +5,5 @@ C:\dynamicSQLEF\dynamicSQLEF\bin\Debug\EntityFramework.dll
 C:\dynamicSQLEF\dynamicSQLEF\bin\Debug\EntityFramework.SqlServer.dll
 C:\dynamicSQLEF\dynamicSQLEF\bin\Debug\EntityFramework.xml
 C:\dynamicSQLEF\dynamicSQLEF\bin\Debug\EntityFramework.SqlServer.xml
-C:\dynamicSQLEF\dynamicSQLEF\obj\Debug\dynamicSQLEF.csprojResolveAssemblyReference.cache
 C:\dynamicSQLEF\dynamicSQLEF\obj\Debug\dynamicSQLEF.exe
 C:\dynamicSQLEF\dynamicSQLEF\obj\Debug\dynamicSQLEF.pdb

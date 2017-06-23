@@ -11,15 +11,15 @@ namespace dynamicSQLEF
     public class DataBaseContext  : DbContext
     {
 
-        public DataBaseContext() : base("BaseContext")
+        public DataBaseContext() : base("ConnectToDB")
         {
             Database.SetInitializer(new EntityDBInitializer());
         }
 
-        public DbSet<LookupNames> lNDbset { get; set; }
+        public DbSet<LookupNames> lookUps { get; set; }
         public DbSet<ColumnNames> colNDbset { get; set; }
 
-        public DbSet<ExpandoObject> ex1 { get; set; }
+       // public DbSet<ExpandoObject> ex1 { get; set; }
 
 
 
